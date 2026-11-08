@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Etude</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600&family=Lora:wght@600;700&display=swap"
+    />
+    <style>
+      :root {
+        --bg: #fbf7f0;
+        --ink: #2a2620;
+        --muted: #5e574c;
+        --accent: #b8352a;
+        --rule: #e4dccf;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #16140f;
+          --ink: #f3ede2;
+          --muted: #b9b0a2;
+          --accent: #e07a6e;
+          --rule: #3a352c;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          1.125rem/1.6 'Golos Text',
+          system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 2.5rem 1.25rem 4rem;
+      }
+      h1,
+      h2,
+      .mark {
+        font-family: Lora, Georgia, serif;
+        line-height: 1.25;
+      }
+      h1 {
+        font-size: 2rem;
+        margin: 0 0 1rem;
+      }
+      h2 {
+        font-size: 1.35rem;
+        margin: 2rem 0 0.5rem;
+      }
+      a {
+        color: var(--accent);
+      }
+      .lang {
+        margin: 0 0 2rem;
+        color: var(--muted);
+      }
+      .mark {
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+      }
+      .mark span {
+        color: var(--accent);
+      }
+      hr {
+        border: 0;
+        border-top: 1px solid var(--rule);
+        margin: 3rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mark">Etude <span>&#9670;</span> Этюд</div>
+      <p>
+        Calm card games and puzzles for Android: Klondike, Spider, FreeCell, Sudoku, Word search,
+        Mahjong and Nonograms.
+      </p>
+      <p>Спокойные пасьянсы и головоломки для Android.</p>
+      <p>
+        <a href="privacy/">Privacy policy</a> ·
+        <a href="privacy/#ru">Политика конфиденциальности</a>
+      </p>
+      <p>Contact: <a href="mailto:laurelcorkscrew@yandex.com">laurelcorkscrew@yandex.com</a></p>
+    </main>
+  </body>
+</html>
